@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.tasklist {
+  padding: 8px;
+  background-color: #00000059;
+  border-radius: 2px;
+  border-radius: 10px;
+}
+
+.tasklist .title {
+  padding: 4px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.tasklist .content {
+  padding: 16px 4px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.tasklist .content .empty-list {
+  text-align: center;
+  border: 1px dashed white;
+  border-radius: 4px;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.tasklist .btn {
+  margin-top: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  background: none;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background: #d711ff88;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+}
+
+.tasklist .btn:hover {
+  background-color: #e523ff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.tasklist .btn img {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+}
